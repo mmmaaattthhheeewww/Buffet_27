@@ -10,11 +10,9 @@ class starter {
         // ===================================================
  
         // TODO: Construct and declare an int variable named applesPicked and set it to 12
-        
- 
+        int applesPicked = 12;
         // TODO: Construct and declare a double variable named boxWeightLbs and set it to 2.5
-        
- 
+        double boxWeightedLbs = 2.5;
         System.out.println("Apples picked: " + applesPicked);
         System.out.println("Box weight: " + boxWeightLbs);
         // Expected:
@@ -30,7 +28,7 @@ class starter {
         // TODO: Construct and declare an int variable named totalBaskets that equals
         // applesPicked multiplied by applesPerBasket
         
- 
+        int totalBaskets = appelsPicked * applesPerBasket;
         System.out.println("Total baskets: " + totalBaskets);
         // Expected: Total baskets: 48
  
@@ -43,7 +41,7 @@ class starter {
  
         int totalCookies = 17;
         int studentsInClass = 5;
- 
+        int cookiesPerstudentInt = totalCookies / studentsInClass;
         // TODO: Construct and declare an int variable named cookiesPerStudentInt that
         // divides totalCookies by studentsInClass using INTEGER division
         
@@ -56,7 +54,7 @@ class starter {
         // divides totalCookies by studentsInClass using DOUBLE (decimal) division.
         // Hint: you'll need to cast at least one of the ints to a double,
         // e.g. (double) totalCookies or add/multiple by 0.0/1.0
-        
+        double cookiesPerStudentDouble = (0.0+totalCookies) / studentsInClass;
  
         System.out.println("Cookies per student (double division): " + cookiesPerStudentDouble);
         // Expected: Cookies per student (double division): 3.4
