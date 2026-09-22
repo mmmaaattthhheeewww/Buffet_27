@@ -23,12 +23,14 @@ class starter {
 		System.out.println("Your two numbers is " + zazulik + " and " +  meekmeek);
 
 		
-		int beegbaak = (int)(Math.random()*(meekmeek-zazulik)+zazulik)
-		int beegbaak = (int)(Math.random()*(meekmeek-zazulik)+zazulik)
-		
+		int beegbaak = (int)(Math.random()*(meekmeek-zazulik)+zazulik);
+		int lalal = (int)(Math.random()*(meekmeek-zazulik)+zazulik);
+		int hotdog = (int)(Math.random()*(meekmeek-zazulik)+zazulik);
+		int haho = (int)(Math.random()*(meekmeek-zazulik)+zazulik);
+		int blee = (int)(Math.random()*(meekmeek-zazulik)+zazulik);
 		System.out.println("here ae 5 numbas in that range");
 		
-		System.out.println(beegbaak + "," +  + "," +  + "," +  + "," + );
+		System.out.println(beegbaak + "," + lalal  + "," + hotdog  + "," + haho + "," + blee);
 
 	}
 }
