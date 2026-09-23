@@ -13,11 +13,11 @@ class starter {
 		System.out.println("Sqrt= " + y);
 		double z =(double)Math.pow(37 / 3, 35 % 21);
 		System.out.println("Pow = " + z);
-		double u =(double)Math.max(Math.pow( 2,14%3)Math.sqrt ( 2*6));
+		double u =(double)Math.max(Math.pow(2,14%3),Math.sqrt ( 2*6));
 		System.out.println("max = " + u);
 
 
-		
+
 		
 		 
 
