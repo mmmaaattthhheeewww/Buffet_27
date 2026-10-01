@@ -7,8 +7,13 @@ import java.util.Scanner;
 
 class starter {
 	public static void main(String args[]) {
-		// the string "I love to learn coding remotely." will appear in
-		// the command window when you compile and run this program.
-		System.out.print("I love to learn coding remotely."); 
+		System.out.println("Pleaase enter one of the secret codes");
+		Scanner sc = new Scanner(System.in);
+		String bario = sc.nextLine();
+		if(bario.equals("kart")){
+			System.out.println("mario kart 8 deluxe is peak");
+		}else if(bario.equals("freddy")|| bario.equals("foxy")){
+			System.out.println("fredy farbear hurhurhurhur");
+		}
 	}
 }
