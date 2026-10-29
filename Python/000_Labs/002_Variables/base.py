@@ -1,0 +1,2 @@
+symbol = "kakak"
+print(symbol)

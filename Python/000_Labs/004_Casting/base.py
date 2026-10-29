@@ -1,0 +1,8 @@
+x = ("s1")
+y = str(2)
+z = str(3.0)
+print(x+y+z)
+xa = int(1)
+ya = int(2.8)
+za = int("3")
+print(xa+ya+za)
