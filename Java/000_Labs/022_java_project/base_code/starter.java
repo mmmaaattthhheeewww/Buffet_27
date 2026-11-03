@@ -36,8 +36,16 @@ class starter {
 			System.out.println("would u like to wager again?");
 			ice = sc.nextLine();
 			if(ice.equals("Yes")||ice.equals("yes")||ice.equals("y")||ice.equals("Y")){
-			System.out.println("Howmuchuwager");
+			System.out.println("How much do you want to wager");
+			wagered = sc.nextInt();
+			sc.nextLine();
+			}while(!ice.equalsIgnoreCase("yes")&& !ice.equalsIgnoreCase("y")){
+				System.out.println("would you like to wager again?");
+				ice = sc.nextLine();
 			}
+			System.out.println("how much you want to bet");
+			wagered = sc.nextInt();
+			sc.nextLine();
 		}
 		
 	}

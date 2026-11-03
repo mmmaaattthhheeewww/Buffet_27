@@ -1,0 +1,1 @@
+x = (int)input("what year you born")
